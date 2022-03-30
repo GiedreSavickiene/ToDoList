@@ -31,8 +31,8 @@ const getData = () => {
                     html += `<li data-id="${value.id}">
                             <input type="checkbox" class="mass-delete" />
                             <a class="mark-done ${done}">${value.task}</a>      
-                            <a class="btn btn-primary update-todo">Redaguoti</a>
-                            <a class="btn btn-danger delete-todo">Trinti</a>
+                            <a class="btn btn-primary update-todo fa-solid fa-pen-clip"></a>
+                            <a class="btn btn-danger delete-todo fa-solid fa-trash-can"></a>
                             
                         </li>`
                 })

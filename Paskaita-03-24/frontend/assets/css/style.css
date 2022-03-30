@@ -1,9 +1,10 @@
 body {
-    background: rgb(176, 219, 255);
+    /* background: rgb(176, 219, 255); */
+    background-image: url('https://api.time.com/wp-content/uploads/2021/02/laptop-home-office.jpg?w,877,quality,85');
 }
 
 .todo-container {
-    background: #fff;
+    background: rgb(226, 241, 190);
     max-width: 600px;
     margin-top: 4rem;
     padding: 2rem;
@@ -52,5 +53,5 @@ li {
 .delete-todo,
 .update-todo {
     float: right;
-    margin-left: 5px;
+    margin-left: 2px;
 }
